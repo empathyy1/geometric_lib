@@ -5,14 +5,14 @@
 circle.py(функции для работы с кругом) и файла README.md(документация)
 ## Использование
 ### Клонируйте этот репозиторий
-'''bash
+```bash
 git clone https://github.com/empathyy1/geometric_lib.git
-'''
+```
 ### Импортируйте библиотеку в своих python-проектах
-'''py
+```py
 import geometric_lib.square as square
 import geometric_lib.circle as circle
-'''
+```
 ## Модуль square.py
 Функции для ввычисления параметров **квадрата**.
 ## Функции
@@ -22,14 +22,18 @@ import geometric_lib.circle as circle
 Принимает: a(int | float) - длина стороны квадрата.  
 Возвращает: area(int | float) - площадь квадрата.
 #### **Пример**
+```py
 print(square.area(5)) #25
+```
 ### perimeter(a)
 Вычисляет периметр квадрата.
 ### **Параметры**
 Принимает: a(int | float) - длина стороны квадрата.  
 Возвращает: perimeter(int | float) - периметр квадрата.
 #### **Пример**
+```py
 print(square.perimeter(5)) #20
+```
 ## Модуль circle.py
 Функции для вычисления параметров **круга**.
 ## Функции
@@ -39,14 +43,18 @@ print(square.perimeter(5)) #20
 Принимает: r(int | float) - радиус круга.
 Возвращает: area(float) - площадь круга.
 #### **Пример**
+```py
 print(circle.area(1)) #3.141592653589793
+```
 ### perimeter(r)
 Вычисляет периметр круга(длину окружности).
 #### **Параметры**
 Принимает: r(int | float) - радиус круга.
 Возвращает: perimeter(float) - длина окружности.
 #### **Пример**
+```py
 print(circle.perimeter(1)) #6.283185307179586
+```
 # История изменений
 commit 7a9d66be3aed40aff11c6a121b63d75aca03e30e
 Date:   Thu Oct 2 22:14:02 2025 +0300
